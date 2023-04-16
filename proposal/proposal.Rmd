@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Second Hand House Sales In Turkey Through Buyers"
 author: 
-  - Last Name, First Name[^1]
+  - Duman, Elifnur[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,34 +32,32 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 20080480, [Github Repo](https://github.com/elifnurduman/proposal.git)
 
-# Important Information About Midterm
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
 
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
 
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
+
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+The real estate sector in Turkey has experienced significant growth and activity, especially in the second-hand home sales market. Significant geographic differences in prices and sales volume define the used home sales market. Many factors such as population growth, economic growth, infrastructure, tourism, urbanization and natural events directly or indirectly affect the second-hand housing market. In this study, we will examine the effects of the above-mentioned economic factors on second-hand house sales in different regions of Turkey. For this analysis, a data set consisting of 62 observers and 12 variables was used by using the monthly values of the last five years obtained by the Central Bank of the Republic of Turkey.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
 
 ## Literature Review
+According to Eğilmez (2019), it has been observed that inflation and interest rates started to decrease and there were not many movements in exchange rates with the new economic model that was tried to be implemented after the crisis experienced in Turkey in 2000-2001. Keeping inflation under control with various policies implemented, the decrease in interest rates, the appreciation of the national currency, the increase in urban transformation projects and the advantages provided, the attractiveness of foreigners to purchase housing from Turkey and thus the increase, the increase in profits in alternative investment instruments such as gold, compared to the increase in housing prices. low level supported the increase in housing prices. With the creation of new and modern housing supply, the demand for housing has increased. As housing demand increased, housing prices also increased.
+Çetin (2021), many macroeconomic economies, especially the guiding value of foreign currencies of the Turkish currency, the policies of banks regarding housing loans and the interest rates applied to loans, point to the increase in housing prices and subsequent changes in housing demand.[@ccetin2021turkiye]
+Coşkun (2016), the population and its increase, demographic developments, urbanization, migrations and the differentiation of many habits related to housing cause various qualitative and quantitative changes in the housing requirement. Along with these factors, housing supply, demand and prices have increased significantly, as housing is seen as an investment tool. Unexpected changes in the money supply, industrial production or interest rates affect housing prices and thus housing demand. Our country's housing market also has an important place in household wealth and fund flows. The fact that the housing market in our country has the property of an ownership market and the rapid increase in housing demand and prices in recent years can be evaluated as being related to the property of housing as an investment tool. Considering that housing prices are in a constant upward trend; This strengthens the perception that housing is protected against inflation and thus the demand for housing.
+Again Coşkun (2016), after the 2000-2001 crisis, housing supply, demand and prices entered a period of rapid increase. Factors affecting the housing supply/demand such as urbanization, migration, increase in population and number of households, increase in income/wealth, decrease in housing loan interest rates, change in housing consumption habits, urban transformation process and high producer profit in housing production also increase the mobility in the housing market and increase the market's demand. kept it alive.[@cocskun2016konut]
+Şanlı and Peker (2023), the housing market has a central importance due to its relationship with many sectors. On the one hand, household microeconomics; is consumption and saving decisions, on the other hand, macroeconomics; is among the important indicators that determine economic growth, employment, domestic demand volume, and similar variables. He said that the effect of an expansionary monetary policy on the housing market is twofold. While housing demand is dealt with first, housing sales prices may increase. The first effect happens faster, the second effect depends on the housing stock. The low housing supply along with the increasing demand causes the prices to move upwards. The sensitivity of the housing sector to monetary policy also stems from the fact that money is an investment tool. After the households meet their compulsory housing needs, they can be directed to housing as savings. However, considering the desire to acquire a more luxurious residence, it can be observed that the demand for housing remains constantly alive.[@csanli2022enflasyon]
+Lebe and Yiğit (2009) discussed income, population, industrialization, number of marriages, inflation, real interest, housing cost, and employment in agriculture as factors determining housing demand in Turkey. Accordingly, he said that income, population, industrialization and the number of marriages affect housing demand positively and other variables negatively.[@lebe2009analysis]
+Çolak (2021) has gathered the factors affecting house sales under five headings. These: Effect of exchange rates, consumer price index (CPI) effect, effect of deposit interest rate, impact of the industrial production index, the impact of employment. The exchange rate is effective in house sales and the increase in costs is seen as a factor such as the pressure of domestic customers. In this context, the exchange rate is seen as an element that includes foreign investors in the housing sector and is determined as the driving force of the housing market. In the inflationary arena, as in other products and services, house prices tend to increase constantly, and this often reflects negatively on house sales. In this case, the smallest movement in house sales also raises house prices.[@ccolak2021analysis] 
+Öztürk and Fitöz (2009) found that there is a linear relationship between housing demand and interest rates, that is, as the interest rate increases, the demand for housing also increases. From the point of view of industrial production, the decline in housing production as an effect of stagnation and recession brought about decreases in new and existing housing sales.[@ozturk2009turkiye]
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
 
 
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
 
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
 
 \newpage
 # References {#references}
